@@ -41,6 +41,24 @@
         /* 논문 DOI 링크 포인트 컬러 */
         .pub-links a { color: #61afef; border: 1px solid #61afef; }
         .pub-links a:hover { background-color: #61afef; color: #1e1e1e; }
+        /* h3 소제목 디자인: 에디터 테마의 하늘색을 적용하고 상하 여백 확대 */
+        h3 { 
+            color: #61afef; 
+            font-size: 1.2em; 
+            font-weight: 600;
+            margin-top: 40px; 
+            margin-bottom: 20px; 
+        }
+        
+        /* 논문 리스트 가독성 최적화: 줄간격 및 항목 간격 대폭 확대 */
+        .publication-list { 
+            padding-left: 20px; 
+        }
+        .publication-list li { 
+            margin-bottom: 30px; /* 논문과 논문 사이의 간격을 대폭 넓게 확보 */
+            line-height: 1.8; /* 텍스트 자체의 줄 간격을 넓혀 답답함 해소 */
+            color: #d4d4d4; /* 다크 테마에 맞는 부드러운 밝은 회색 적용 */
+        }
     </style>
 </head>
 <body>
@@ -85,7 +103,7 @@
 <div id="publications">
         <h2>Publications</h2>
         
-        <h3 style="font-size: 1.1em; color: #2c3e50; margin-top: 20px;">Peer-Reviewed Publications</h3>
+        <h3>Peer-Reviewed Articles</h3> <h3>Under Review / Submitted</h3>
         <ul class="publication-list">
             <li>
                 Kim, M. S., Ko, Y. H., Park, M. O., Kim, S. G., Shin, S. H., <strong>Seok, M. W.</strong>, & Kim, T. W. (2025). Ocean acidification in the shallow inshore waters of the Southeastern Yellow Sea. <em>Regional Studies in Marine Science</em>, <em>89</em>, 104356.
